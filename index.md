@@ -31,10 +31,9 @@ and back home to Lafayette.
 
 # Education
 
-### Purdue University
-
-**Bachelor of Science in Computer Science**  
-_focus in Systems and Software Engineering_
+## Purdue University
+### Bachelor of Science in Computer Science
+**_focus in Systems and Software Engineering_**
 
 ![assets/images/purdue.png](assets/images/purdue.png)
 {: class="picture-right picture-small"}
@@ -58,7 +57,7 @@ Exceptional Junior award in 2015.
 
 # Career
 
-### Pre-education
+## Pre-education
 
 ![assets/images/billy_and_bob.gif](assets/images/billy_and_bob.gif)
 _Billy and Bob: A flash game I wrote_
@@ -75,7 +74,7 @@ free version of Adobe Flash CC to build small games for web hosting (with the
 vision of being a flash game designer). About halfway through high school I
 started teaching myself Java and built a very simple game engine in Java.
 
-### College
+## College
 
 My first year at Purdue I was working as a contractor for a small chemical
 instruments company [Emergent
@@ -88,7 +87,7 @@ time OS called Xinu running on Galileo boards which was one of the highlights of
 my time at Purdue. One of my other favorite courses was my computer architecture
 course where we got into the nitty gritty of how computers work.
 
-### Qualcomm
+## Qualcomm
 
 ![assets/images/QC.png](assets/images/QC.png)
 {: class="picture-right picture-small"}
@@ -118,7 +117,7 @@ me. I was intending to return to Boulder full time in May 2016, however Qualcomm
 was going through some significant downsizing at the time so I was not offered
 the position that I would have liked and ended up declining the offer.
 
-### One Fact
+## One Fact
 
 In December of 2015 I was searching for full time employment opportunities as I
 was scheduled to graduate in May 2016. Another of my dad's companies [One Fact,
@@ -176,7 +175,48 @@ operating system called [EV3RT](http://ev3rt-git.github.io/about/) by the
 
 # Projects
 
+## ciera model compiler
+
 TODO
+
+## GPS Watch demo application
+
+TODO
+
+## BridgePoint
+
+TODO
+
+## snake
+
+![assets/images/snake.gif](assets/images/snake.gif)
+{: class="picture-right picture-small"}
+
+Over the summer of 2014 while at Qualcomm in San Diego, I wrote a web based
+version of the game "snake". I had a nostalgic connection to this game because I
+used to play it all the time on my dad's Nokia cell phone on the way to school.
+My implementation attempts to emulate the same blocky aesthetic but bring a
+fresh take on the color scheme. At the time, I was learning about responsive web
+design while I was working on the testing web interface for Qualcomm. The snake
+game is designed to be compatible with mobile devices visually, and it is also
+made to be compatible with touch screens. On desktop, the arrow keys are used,
+but on mobile, a touch pad is provided.
+
+I also was interested in writing strategy algorithms for the game. I didn't get
+too far creating intelligent algorithms, however I designed the game such that
+new cheat algorithms could easily be plugged in.
+
+The game homepage can be found [here](https://leviathan747.github.io/snake).
+
+## expression parser
+
+I wrote a small expression parser that can be used to perform simple arithmetic
+calculations from the command line. This was a simple one day project that I
+found fun as it gave me an opportunity to practice designing good a good parser
+which encoded order of operations.
+
+The project can be found on Github
+[here](https://github.com/leviathan747/expression).
 
 ---
 
