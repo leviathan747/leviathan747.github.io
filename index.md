@@ -5,7 +5,29 @@ description: Software Engineer
 
 # Introduction
 
+My name is Levi Starrett. I'm a software engineer by day and a family man by
+night. My wife Courtney and I met at Purdue and got married in 2016. We live in
+historic Lafayette and have a 1 year old son (Ezra). Courtney's two brothers
+Nick (14) and Jacob (17) also live with us and attend school in Lafayette. We
+are active members of Faith Church and attend Sunday services at the [Northend
+Community Center](http://northend.cc).
 
+![assets/images/motorcycle.jpg](assets/images/motorcycle.jpg)
+{: class="picture-left picture-medium"}
+
+I grew up in Brookston, IN and went to high school at Faith Christian School in
+Lafayette. I graduated from Purdue in 2016 and accepted a job working for a
+small software services company One Fact, Inc.
+
+I love to spend time with my family, work on engineering/maker side projects,
+golf, make beer, and outdoor activities when I have time.
+
+I also love motorcycles. Unfortunately, I'm not a current owner, but in 2015 I
+was the proud owner of a 1986 Honda Shadow which I rode cross country over 1500
+miles from Boulder, CO through Nebraska, South Dakota, Minnesota, Iowa, Illinois
+and back home to Lafayette.
+
+---
 
 # Education
 
@@ -15,7 +37,7 @@ description: Software Engineer
 _focus in Systems and Software Engineering_
 
 ![assets/images/purdue.png](assets/images/purdue.png)
-{: class="picture-right"}
+{: class="picture-right picture-small"}
 
 I graduated from Purdue University with my BS in December of 2016. I took
 particular interest in systems topics such as programming languages, compilers,
@@ -33,5 +55,3 @@ non-technical students in order to equip them to interact in today's world.
 # Career
 
 # Projects
-
-# Personal interests
