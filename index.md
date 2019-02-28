@@ -60,6 +60,10 @@ Exceptional Junior award in 2015.
 
 ### Pre-education
 
+![assets/images/billy_and_bob.gif](assets/images/billy_and_bob.gif)
+_Billy and Bob: A flash game I wrote_
+{: class="picture-left picture-small"}
+
 My interest in engineering started at a young age working with LEGO. As an
 elementary kid I entered a few LEGO robotics competitions building sumo style
 robots. When I was in middle school (circa 2007) I wanted to learn how to make a
@@ -85,6 +89,9 @@ my time at Purdue. One of my other favorite courses was my computer architecture
 course where we got into the nitty gritty of how computers work.
 
 ### Qualcomm
+
+![assets/images/QC.png](assets/images/QC.png)
+{: class="picture-right picture-small"}
 
 I worked as an intern two summers for [Qualcomm
 Technologies](https://qualcomm.com). The summer after my freshman year (2014) I
@@ -126,6 +133,9 @@ In August 2016, I travelled alone to Cheltenham, UK to deliver a training course
 for the tool updates we had been developing since January. I taught a two day
 course with about 8 students. In January of 2017 I went to Cheltenham again
 with a colleague to deliver the same course.
+
+![assets/images/1f.png](assets/images/1f.png)
+{: class="picture-left picture-small"}
 
 In January 2017 I went back to full time status after graduating from Purdue and
 in February 2017 I was promoted to Senior Software Engineer. In October of 2017
