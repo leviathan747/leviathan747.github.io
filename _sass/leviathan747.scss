@@ -1,0 +1,24 @@
+.right-align {
+  float: right;
+  text-align: right;
+}
+
+.picture-right {
+  float: right;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
+
+.picture-left {
+  float: left;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
+
+img {
+  max-width: 400px;
+}
