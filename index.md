@@ -5,6 +5,9 @@ description: Software Engineer
 
 # Introduction
 
+![assets/images/purdue.png](assets/images/family.jpg)
+{: class="picture-right picture-small"}
+
 My name is Levi Starrett. I'm a software engineer by day and a family man by
 night. My wife Courtney and I met at Purdue and got married in 2016. We live in
 historic Lafayette and have a 1 year old son (Ezra). Courtney's two brothers
@@ -18,6 +21,14 @@ Community Center](http://northend.cc).
 I grew up in Brookston, IN and went to high school at Faith Christian School in
 Lafayette. I graduated from Purdue in 2016 and accepted a job working for a
 small software services company One Fact, Inc.
+
+I'm passionate about computer science, teaching, and generally getting young
+people interested in engineering and creative crafts. I love getting "down on
+the iron" and working with prototyping boards and other forms of DIY computer
+hardware. I have some experience with robotics (mostly LEGO) and enjoy the
+challenge of encoding behavior for devices that can be seen and touched. I have
+a membership at the MatchBOX Studio in Lafayette and have been learning how to
+use some of the Maker Lab equipment (mostly laser cutting).
 
 I love to spend time with my family, work on engineering/maker side projects,
 golf, make beer, and outdoor activities when I have time.
@@ -177,7 +188,28 @@ operating system called [EV3RT](http://ev3rt-git.github.io/about/) by the
 
 ## ciera model compiler
 
-TODO
+In early 2017 I started work on a side project to create a new model compiler to
+generate Java from xtUML models. My original goal for this project was to
+experiment with some concepts I had been thinking about to create a model
+compiler that is itself modeled in xtUML. Since then, the goals have pivoted and
+I hope to use it to generate production applications and to use it to generate
+code for BridgePoint and other tools.
+
+xtUML is a graphical and textual modeling language that supports modeling with
+the [Shlaer-Mellor method](https://en.wikipedia.org/wiki/Shlaer–Mellor_method).
+xtUML is stored on disk as a mix of SQL instances in plaintext files and plain
+text. The structural and graphical elements in the language are stored as SQL
+"INSERT" statements, and the action language is Object Action Language (OAL)
+stored as text. xtUML can be executed interpretively by a simulator and it can
+be translated to any number of target languages/software architectures.
+
+The ciera project is still in progress (homepage for the project coming soon!)
+but at the moment, it is feature complete enough to generate and run real
+applications including the GPS Watch example (see the [next
+section](#gps-watch-demo-application)). The project uses Maven as a build
+environment and is completely modeled and built with a version of itself. Some
+preliminary work has been done to generate distributed AWS applications from
+models. I am looking forward to developing this project more in the future.
 
 ## GPS Watch demo application
 
@@ -330,11 +362,3 @@ The project can be found on Github
 
 ---
 
-# Personal
-
-TODO
-
-![assets/images/purdue.png](assets/images/family.jpg)
-{: class="picture-right picture-small"}
-
----
