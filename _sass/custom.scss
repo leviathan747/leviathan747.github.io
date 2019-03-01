@@ -43,11 +43,9 @@
   width: 60%;
   height: 0;
   padding-top: 315px / 560px * 60%;
-  padding-right: 0px;
-  padding-bottom: 5px;
-  padding-left: 30px;
   overflow: hidden;
   position: relative;
+  margin-left: 30px;
 }
 
 .embedded-video-left {
@@ -56,25 +54,19 @@
   width: 60%;
   height: 0;
   padding-top: 315px / 560px * 60%;
-  padding-right: 30px;
-  padding-bottom: 5px;
-  padding-left: 0px;
   overflow: hidden;
   position: relative;
+  margin-right: 30px;
 }
 
 @media screen and (max-width: 480px) {
   .embedded-video-right {
     width: 100%;
     padding-top: 315px / 560px * 100%;
-    padding-right: 0;
-    padding-left: 0;
   }
   .embedded-video-left {
     width: 100%;
     padding-top: 315px / 560px * 100%;
-    padding-right: 0;
-    padding-left: 0;
   }
 
 }
