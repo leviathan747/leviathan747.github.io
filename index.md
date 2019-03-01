@@ -213,7 +213,11 @@ models. I am looking forward to developing this project more in the future.
 
 ## GPS Watch demo application
 
-<iframe width="560" height="315" class="picture-right" src="https://www.youtube.com/embed/TLFNod4Qvnw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p class="embedded-video-right">
+<iframe src="https://www.youtube.com/embed/TLFNod4Qvnw" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+</p>
 
 One of the best example xtUML models we have is that of a GPS running watch. We
 use this model all the time for training and teaching xtUML. It has complex
@@ -241,7 +245,11 @@ and the simulator exhibit identical behavior despite vast differences in
 software and hardware used. The presentation I gave at MODELS can be accessed
 [here](assets/images/1-3-5.pdf).
 
-<iframe width="560" height="315" class="picture-left" src="https://www.youtube.com/embed/nY984Yev5GI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p class="embedded-video-left">
+<iframe src="https://www.youtube.com/embed/nY984Yev5GI" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+</p>
 
 Later, in November of 2018 I extended the demo to include an experimental
 version of my [ciera architecture](#ciera-model-compiler) which generated an
@@ -304,9 +312,13 @@ single instance of the Eclipse workbench to be instantiated for a series of
 commands. When this feature was deployed to our customer, the time required to
 run their full suite of 575 test models went from 10+ hours down to ~40 minutes.
 
-<iframe width="560" height="315" class="picture-left" src="https://www.youtube.com/embed/lmZJ44ceDD8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 #### Completion assist
+
+<p class="embedded-video-right">
+<iframe src="https://www.youtube.com/embed/lmZJ44ceDD8" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+</p>
 
 In 2017 I implemented completion assistance for the OAL editor within
 BridgePoint. This ended up being the most important feature of the year and
@@ -332,7 +344,7 @@ schedule, implementation, review, and documentation update.
 ## Snake
 
 ![assets/images/snake.gif](assets/images/snake.gif)
-{: class="picture-right picture-small"}
+{: class="picture-left picture-small"}
 
 Over the summer of 2014 while at Qualcomm in San Diego, I wrote a web based
 version of the game "snake". I had a nostalgic connection to this game because I
