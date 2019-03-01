@@ -181,11 +181,121 @@ TODO
 
 ## GPS Watch demo application
 
-TODO
+<iframe width="560" height="315" class="picture-right" src="https://www.youtube.com/embed/TLFNod4Qvnw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+One of the best example xtUML models we have is that of a GPS running watch. We
+use this model all the time for training and teaching xtUML. It has complex
+enough behavior to be interesting, and yet it is very easy to understand. It
+has a nice graphical interface which makes it very visual. In the Spring of
+2018, we converted the GPS Watch example model to MASL in order to test some
+usability requirements for the MASL editing tools (see [Raven](#raven)). Ahead
+of the MODELS conference (Oct. 2018) I prepared a presentation demonstrating
+how BridgePoint could be used to re-target applications for different
+languages, software and hardware architectures. To prove my point, I generated
+code using our C model compiler (MC-3020) for an Arduino UNO. The MC-3020
+architecture is designed to produce very small, compact ANSI C with no
+dependencies. This software architecture is perfect for generating complex
+stateful applications for deployment on hardware targets with no HLOS. In the
+case of the Arduino, only 2K of RAM was available for the application. I also
+generated code from the MASL version of the GPS Watch application using the
+MASL model compiler.  This software architecture targets C++ on Linux systems.
+The architecture has dynamic memory allocation and persistent storage, and
+includes features which allow libraries to be dynamically loaded so an
+inspector application can interrogate the state of the application without
+bringing the application down. This architecture is perfect for long running
+applications distributed across many nodes. The generated code was deployed on a
+Raspberry Pi 3 B+ running Raspbian. The video shows that both hardware platforms
+and the simulator exhibit identical behavior despite vast differences in
+software and hardware used. The presentation I gave at MODELS can be accessed
+[here](assets/images/1-3-5.pdf).
+
+<iframe width="560" height="315" class="picture-left" src="https://www.youtube.com/embed/nY984Yev5GI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Later, in November of 2018 I extended the demo to include an experimental
+version of my [ciera architecture](#ciera-model-compiler) which generated an
+asynchronous application to AWS. This was for a "lunch and learn" event that one
+of my colleagues was presenting for Northrup-Grumman in the UK. The application
+was deployed as a AWS Lambda function. On a regular interval, the Lambda would
+be triggered at which time it would load the instance population from a DynamoDB
+backend including running timers and "in-flight" events. It would then check if
+any timers had expired and handle events until the application quiesced. At that
+point, the state would be persisted to the database and the Lambda would exit.
+This architecture provides a highly powerful and scalable platform. The demo
+never worked exactly how it should, but this architecture is still a work in
+progress. The presentation given at the lunch and learn can be accessed
+[here](assets/images/GPSCiera.pdf).
 
 ## BridgePoint
 
-TODO
+Since I started with One Fact, I have been one of the core committers to the
+[BridgePoint project](https://github.com/xtuml/bridgepoint) and the
+[BridgePoint model compilers](https://github.com/xtuml/mc). As stated above,
+BridgePoint is an open source tool built on the Eclipse Oxygen platform.
+BridgePoint was not always an open source tool and it was not always
+Eclipse-based. Because of the long history of the code base, there has been a
+lot of maintenance and revitalizing work I have done with the project. As Chief
+Software Architect, it is my responsibility to lead BridgePoint into the
+technical future and assure its long term maintainability. I have worked to
+remove unnecessary complexity and produce a more nimble, more lean product which
+is in the end less expensive to support. I have also worked on the build of
+BridgePoint itself including work on setting up a Jenkins build server to allow
+us to build BridgePoint and run unit tests more then we ever have before.
+
+During my work on the BridgePoint project, I have implemented several notable
+features:
+
+#### Raven
+
+I was a core developer during the Raven project which added tooling to
+support the MASL modeling language. MASL is a textual language that supports
+software modeling with the [Shlaer-Mellor
+method](https://en.wikipedia.org/wiki/Shlaer–Mellor_method) as described in
+_Model Driven Architecture with Executable UML_ ([Chris Raistrick; et al.
+2004](https://www.cambridge.org/vi/academic/subjects/engineering/engineering-mathematics-and-programming/model-driven-architecture-executable-uml?format=WW&isbn=9780521537711)).
+The Raven project introduced the capability of BridgePoint to convert MASL
+models to xtUML, import them, edit them, and export them as MASL models for
+compilation later in the build chain.
+
+#### CLI redesign
+
+During the Raven project, we developed a testing tool we called MASL round trip.
+Many of our clients work in military contracting so they are often unable to
+share their models with us for testing purposes as they are classified. We must
+develop creative ways to test our work without access to large repositories of
+source models. MASL round trip was an automated test which exercised the MASL
+tools in BridgePoint and produced a report. The test was built with several
+scripts and depended on the BridgePoint CLI to perform certain operations. Since
+BridgePoint is an Eclipse application, the CLI launches the Eclipse workbench
+which can take some time when many hundreds of operations are performed. In
+spring of 2017 I worked on the CLI to improve the way we do things allowing a
+single instance of the Eclipse workbench to be instantiated for a series of
+commands. When this feature was deployed to our customer, the time required to
+run their full suite of 575 test models went from 10+ hours down to ~40 minutes.
+
+<iframe width="560" height="315" class="picture-left" src="https://www.youtube.com/embed/lmZJ44ceDD8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### Completion assist
+
+In 2017 I implemented completion assistance for the OAL editor within
+BridgePoint. This ended up being the most important feature of the year and
+helped BridgePoint users be much more efficient. In this video two editors are
+"racing" to implement an operation. The top does not have the content assist
+feature, but the bottom does.
+
+#### Set operations
+
+Another OAL feature I worked on was implementation of set operators for set
+arithmetic. In Spring of 2018 I implemented the feature which added operations
+union, disunion, difference, and symmetric difference. These were supported by
+the model verifier (simulator) and all of our model compilers
+
+#### Project Primus
+
+In Winter 2018, I lead the Project Primus project. In this project we
+implemented a new model element "Deployments", used for some types of system
+modeling. I lead the management of this project from start to finish including
+initial analysis and proposal, requirements specification, project sizing and
+schedule, implementation, review, and documentation update.
 
 ## Snake
 
