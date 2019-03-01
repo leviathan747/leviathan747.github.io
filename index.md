@@ -187,7 +187,7 @@ TODO
 
 TODO
 
-## snake
+## Snake
 
 ![assets/images/snake.gif](assets/images/snake.gif)
 {: class="picture-right picture-small"}
@@ -208,7 +208,7 @@ new cheat algorithms could easily be plugged in.
 
 The game homepage can be found [here](https://leviathan747.github.io/snake).
 
-## expression parser
+## Expression parser
 
 I wrote a small expression parser that can be used to perform simple arithmetic
 calculations from the command line. This was a simple one day project that I
