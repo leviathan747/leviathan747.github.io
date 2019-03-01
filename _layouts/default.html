@@ -12,11 +12,11 @@
     <div id="header_wrap" class="outer">
         <header class="inner">
           <p class="right-align">
-            <a href="mailto:{{ site.email }}">{{site.email}}</a><br>
-            <span style="color: white;">{{ site.phone }}</span><br>
-            <a href="{{ site.resume-link }}">resume</a><br>
-            <a href="{{ site.github-link }}">Github</a><br>
-            <a href="{{ site.linkedin-link }}">LinkedIn</a><br>
+            <span class="nav-link-wrapper"><span class="phone-num">{{ site.phone }}</span></span><br>
+            <span class="nav-link-wrapper"><a class="nav-link" href="mailto:{{ site.email }}">{{site.email}}</a></span><br>
+            <span class="nav-link-wrapper"><a class="nav-link" href="{{ site.resume-link }}">resume</a></span>
+            <span class="nav-link-wrapper"><a class="nav-link" href="{{ site.github-link }}">Github</a></span>
+            <span class="nav-link-wrapper"><a class="nav-link" href="{{ site.linkedin-link }}">LinkedIn</a></span>
           </p>
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>

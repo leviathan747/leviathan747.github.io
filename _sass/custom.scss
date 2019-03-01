@@ -45,3 +45,36 @@ img {
   -o-box-shadow: none;
   -ms-box-shadow: none;
 }
+
+.nav-link-wrapper {
+  display: inline-block;
+  padding: 6px 0px;
+}
+
+.nav-link {
+  background: #f2f2f2;
+  color:#373737;
+  margin-bottom: 6px;
+  padding: 6px 6px;
+  text-decoration: none !important;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.nav-link:hover {
+  background:#373737;
+  color: #f2f2f2;
+  box-shadow: 0 0 5px #ebebeb;
+  -webkit-box-shadow: 0 0 5px #ebebeb;
+  -moz-box-shadow: 0 0 5px #ebebeb;
+  -o-box-shadow: 0 0 5px #ebebeb;
+  -ms-box-shadow: 0 0 5px #ebebeb;
+}
+
+.phone-num {
+  color: #f2f2f2;
+  margin-bottom: 6px;
+  padding: 6px 6px;
+  text-decoration: none !important;
+  text-align: center;
+}
