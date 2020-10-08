@@ -10,33 +10,36 @@ description: Software Engineer
 
 My name is Levi Starrett. I'm a software engineer by day and a family man by
 night. My wife Courtney and I met at Purdue and got married in 2016. We live in
-historic Lafayette and have a 1 year old son (Ezra). Courtney's two brothers
-Nick (14) and Jacob (17) also live with us and attend school in Lafayette. We
-are active members of Faith Church and attend Sunday services at the [Northend
-Community Center](http://northend.cc).
+West Lafayette, IN and have 2 beautiful children -- Ezra (2.5) and Brooklyn
+(1). Courtney's brother Nick (15) also lives with us and attends school in
+Lafayette. We are active members of Faith Church and attend Sunday services at
+the [Northend Community Center](http://northend.cc).
 
 ![assets/images/motorcycle.jpg](assets/images/motorcycle.jpg)
 {: class="picture-left picture-medium"}
 
 I grew up in Brookston, IN and went to high school at Faith Christian School in
 Lafayette. I graduated from Purdue in 2016 and accepted a job working for a
-small software services company One Fact, Inc.
+small software services company One Fact, Inc. In 2019 I started as lead
+software engineer at Rogo Ag, LLC a robotic ag services company.  I now manage
+the Engineering department at Rogo.
 
 I'm passionate about computer science, teaching, and generally getting young
 people interested in engineering and creative crafts. I love getting "down on
 the iron" and working with prototyping boards and other forms of DIY computer
-hardware. I have some experience with robotics (mostly LEGO) and enjoy the
-challenge of encoding behavior for devices that can be seen and touched. I have
-a membership at the MatchBOX Studio in Lafayette and have been learning how to
-use some of the Maker Lab equipment (mostly laser cutting).
+hardware and robotics.  I enjoy the challenge of encoding behavior for devices
+that can be seen and touched. I have a membership at the MatchBOX Studio in
+Lafayette and have been learning how to use some of the Maker Lab equipment
+(mostly laser cutting).
 
 I love to spend time with my family, work on engineering/maker side projects,
 golf, make beer, and outdoor activities when I have time.
 
-I also love motorcycles. Unfortunately, I'm not a current owner, but in 2015 I
-was the proud owner of a 1986 Honda Shadow which I rode cross country over 1500
-miles from Boulder, CO through Nebraska, South Dakota, Minnesota, Iowa, Illinois
-and back home to Lafayette.
+I also love motorcycles. In 2015 I was the proud owner of a 1986 Honda Shadow
+which I rode cross country over 1500 miles from Boulder, CO through Nebraska,
+South Dakota, Minnesota, Iowa, Illinois and back home to Lafayette. In spring
+of this year, I reprised my Shadow with a 2012 Shadow Phantom that I love to
+ride and work on with my son Ezra.
 
 ---
 
@@ -181,6 +184,36 @@ courses, many times with hardware visual aids. I worked on a two wheeled
 balancing robot built on the LEGO Mindstorms EV3 platform running a real time
 operating system called [EV3RT](http://ev3rt-git.github.io/about/) by the
 [Toppers](https://www.toppers.jp/en/project.html) group.
+
+## Rogo
+
+![assets/images/rogo.png](assets/images/rogo.png)
+{: class="picture-right picture-small"}
+
+In 2019 I began as the first engineer at a robotic ag services startup called
+Rogo. Rogo does autonomous soil colleciton for fertility analysis across the
+midwest. We currently have 13 autonomous sampling machines in our fleet and
+have completed over 200 thousand commercial acres since I started.
+
+![assets/images/robot.jpg](assets/images/robot.jpg)
+{: class="picture-left picture-small"}
+
+When I started at Rogo, the software system was primitive. I developed a
+mission control application that is used for planning, scheduling, and
+executing soil sampling jobs. I've developed independently and with a team the
+navigation control software for autonomous driving in fields. I built a new
+software system this year to control the sampling funcitons of our latest
+machine running on a custom embedded platform.
+
+In July I took on the role of manager of the engineering department. My
+function changes somewhat as projects come and go, but I typically manage the
+day to day of a team of 8+ engineers and contractors to meet business goals and
+define requirements for new projects.
+
+Over the summer, our team designed and built 9 new sampling machines to add to
+our fleet. This fall we expect to sample 250,000 commercial acres.
+
+*photo credit: Bradley Layton*
 
 ---
 
