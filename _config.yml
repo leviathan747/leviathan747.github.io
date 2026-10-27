@@ -8,3 +8,6 @@ email: levi@roxsoftware.com
 resume-link: https://leviathan747.github.io/resume/
 github-link: https://github.com/leviathan747/
 linkedin-link: http://www.linkedin.com/in/levistarrett/
+
+plugins:
+  - jekyll-redirect-from
